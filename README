@@ -1,0 +1,26 @@
+
+Files for reproducing Figure 5 from Jaffe, Wang, and Brenner (2011)
+using NEURON (http://www.neuron.yale.edu).
+
+----------------------------------------
+
+Hoc code:
+
+figure5.hoc	- hoc script to run simulation
+channels.ses	- descriptions of Na and KDR channels (Aradi and Holmes, 1999)
+varybeta.parm 	- Systematic variation of the coeffecient 'S' 
+
+mod files for producing the 'special' executable:
+
+aabBK.mod     - alphabeta4 and alpha BK channel descriptions
+Ca.mod	      - calcium channel descriptions (Aradi and Holmes, 1999)
+
+IgorPro (using ver 5.02) 
+
+Figure5plots.pxp   - IgorPro packed experiment
+
+----------------------------------------
+
+Output file convention: trace_BKchannelType_run.dat
+
+

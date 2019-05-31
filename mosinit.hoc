@@ -1,0 +1,3 @@
+//moddir mods
+load_file("nrngui.hoc")
+load_file("figure5.hoc")
